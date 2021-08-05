@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.ana-container{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+header nav ul li{
+    margin: 15px;
+}
+.borderClass{
+    border-right: 4px solid rgb(216, 215, 215);
+}
+.paralax-E{
+    height: 350px;
+    background:url(../Style/pictures/overlay.png), url(../Style/pictures/streeto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(190, 190, 190);
+}
+.paralax-E h3{
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+.paralax-E p{
+    margin-bottom: 30px;
+    word-spacing: 2.5px;
+    text-align: center;
+}
+footer a{
+    color: rgb(148, 148, 148);
+    font-weight: 100;
+    text-decoration: none;
+    transition: .6s;
+}
+
+footer h5{
+    font-weight: 300;
+}
+footer a:hover{
+    color: white;
+}
+footer .socialS a{
+    margin-right: 15px;
+    font-size: 20px
+}
